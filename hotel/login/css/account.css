@@ -1,0 +1,82 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.form-wrap {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #333;
+}
+
+.select-field {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('https://cdn3.iconfinder.com/data/icons/fatcow/16x16_0510/arrow_down.png') no-repeat right #f2f2f2;
+  background-position: 98% 50%;
+}
+
+.form-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #444;
+}
+
+.error-msg {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffbdbd;
+  color: #ff0000;
+  border-radius: 5px;
+  font-size: 14px;
+}
